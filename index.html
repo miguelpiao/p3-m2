@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@1.22.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@1.22.0/dist/themes.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/p3-m2/index.css">
+
+    <title>Document</title>
+</head>
+
+<body data-theme="dark" class="container mx-auto my-8">
+    <header>
+
+    </header>
+    <nav class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
+        <div class="flex-1 px-2 mx-2">
+            <span class="text-lg font-bold">
+                Venda NFTs
+            </span>
+        </div>
+        <div class="flex-none">
+            <div class="items-stretch hidden lg:flex">
+                <a class="btn btn-ghost btn-sm rounded-btn" href="/p3-m2/index.html">
+                    Página Inicial
+                </a>
+                <a class="btn btn-ghost btn-sm rounded-btn" href="#collection">
+                    Coleções
+                </a>
+            </div>
+        </div>
+    </nav>
+    <main>
+
+        <section class="card shadow-lg">
+            <!-- espaço para o carrosel -->
+            <div class="card-body">
+                <div class="slideshow-container">
+
+
+
+                    <div class="mySlides fade">
+                        <div class="m-6 indicator">
+                            <div class="indicator-item badge badge-primary">HOT</div>
+
+                            <img src="/p3-m2/images/ice cube tattoo.png" width="400" height="400">
+                            <div class="text"></div>
+                        </div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="m-6 indicator">
+                            <div class="indicator-item badge badge-primary">HOT</div>
+
+                            <img src="/p3-m2/images/granade.png" width="400" height="400">
+                            <div class="text"></div>
+                        </div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="m-6 indicator">
+                            <div class="indicator-item badge badge-primary">HOT</div>
+
+                            <img src="/p3-m2/images/ghost face.png" width="400" height="400">
+                            <div class="text"></div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="m-6 indicator">
+                            <div class="indicator-item badge badge-primary">HOT</div>
+
+                            <img src="/p3-m2/images/skull tattoo.png" width="400" height="400">
+                            <div class="text">Caption Three</div>
+                        </div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+
+            </div>
+        </section>
+        <article>
+            <marquee class="style8" style="color:rgba(255, 255, 255, 0.733)">
+                Loja de imagens estilo nft revolvente nas historias que nos foram destacadas.
+            </marquee>
+            <!-- espaço para explicar o site -->
+        </article>
+        <section>
+            <h2 class="card-title" style="text-align:center">Coleções</h2>
+            <div class="collectionhighlights-outer-container" id="collection">
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/barber pole.png" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #1
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Sou barbeiro. É uma coisa que pode acontecer a qualquer pessoa.
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao1.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/headless guy.png" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #2
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Matei-o porque me doía a cabeça.
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao2.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/cloud.png" alt="3" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #3
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Matei-o primeiro em sonhos;
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao3.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/glasses.png" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #4
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Matei-o porque tinha a
+                            certeza de que ninguém
+                            estava a ver
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao4.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/sign.png" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #5
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Sou costureiro. Não é para me gabar, mas a minha reputação está feita:
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao5.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/plate.png" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #6
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            — Só mais um bocadinho!<br>
+                            Não podia recusar, mas detesto arroz.<br>
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao6.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/Ghost.png" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #7
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Para dizer a verdade, pensava que nunca o descobririam.
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao7.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/poison.png" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #8
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Era mais inteligente do que eu, mais rico do que eu, mais generoso do que eu,
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao8.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/spilled wine.png" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #9
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Se não durmo pelo menos oito horas sou um homem perdido,
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao9.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/ice cube tattoo.png" alt="10" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #10
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Introduzira-me um cubo de gelo nas costas. O mínimo que eu podia fazer era arrefecê-lo
+                            também.
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao10.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/money.png" alt="11" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #11
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Sim, era um pobre
+                            idiota!
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao4.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/bullet.png" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #12
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            — Como é possível que me acusem de o ter morto
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao12.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/ink bottle.png" alt="13" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #13
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Terminara o meu trabalho, não julgue que foi fácil:
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao13.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/knife.png" alt="14" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #14
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            O Director-Geral da União dos Autores de Cinema devolveu-
+                            me amavelmente o manuscrito:
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao14.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/peepee dog.jpg" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #15
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Todas as manhãs e todas as tardes, sempre às mesmas horas,
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao15.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/pot.png" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #16
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Ela falava, falava, falava.
+                            Falava pelos cotovelos.
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao16.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/granade.png" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #17
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Não posso mudar de casa. Não tenho dinheiro
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao17.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/enjoy the view.png" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #18
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Estava um frio danado. Ele marcara-me encontro às sete
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao18.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/handtie.png" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #19
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Era a sétima vez que me pedia para recomeçar aquela
+                            carta.
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao19.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/ghost face.png" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #20
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Salpicara-me dos pés à cabeça. Isso ainda vá lá...
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao20.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/fang guy.png" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #21
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Gosto imenso de cinema. Chego sempre
+                            à hora exacta em que começa a sessão.
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao21.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+                <div class="collectionhighlights-item">
+                    <img src="/p3-m2/images/leite.png" />
+                    <div class="collectionhighlights-item-info">
+                        <div class="collectionhighlights-item-info-title ">
+                            Coleção #22
+                        </div>
+                        <div class="collectionhighlights-item-info-message">
+                            Gosto imenso de cinema. Chego sempre
+                            à hora exacta em que começa a sessão.
+                        </div>
+                        <a class="collectionhighlights-item-info-button btn btn-ghost btn-sm rounded-btn"
+                            href="/p3-m2/coleçoes/coleçao22.html">
+                            Saber mais
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="card-bordered" style="text-align:center">
+        Venda NFTs - 2022
+    </footer>
+    <!--SCRIPTS-->
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>
